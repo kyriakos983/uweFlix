@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #e3f2fd;">
+  <a class="navbar-brand" href="{% url 'home' %}">UWEFlix</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" style="color: black; background-color: #f4f4f4;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Cinema manager Login</a>
+    <a class="dropdown-item" href="#">Account manager Login</a>
+      <a class="dropdown-item" href="#">Student Login</a>
+      <a class="dropdown-item" href="#">Club Rep Login</a>
+
+            </div>
+        </div>
+    </ul>
+
+</nav>
+</body>
+</html>
